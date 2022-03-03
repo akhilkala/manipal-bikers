@@ -112,9 +112,16 @@ header {
 }
 
 .join {
-    height: 70vh;
+    height: 90vh;
     padding-top: 6rem;
     position: relative;
+    // background-color: red;
+
+    @media (max-width:600px) {
+    height: 100vh;
+        
+            
+        }
 
     h2, span {
         margin-left: 2rem;
@@ -164,7 +171,7 @@ header {
 
 .illustration {
     position: absolute;
-    bottom: -100px;
+    bottom: 0;
     right: 0;
     width: 50rem;
     max-width: 80%;
