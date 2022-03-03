@@ -210,3 +210,9 @@ header {
     align-items: center;
     justify-content: center;
 }
+
+.success {
+    @media (max-width:500px) {
+        font-size: 1.35rem;
+    }
+}
