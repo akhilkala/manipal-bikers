@@ -2,17 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   env: {
-    MONGO_URI: "mongodb://localhost:27017/portfolio",
-    TOKEN: "ghtyufjdssdfjkdsfsftyhgrf",
-  },
-  async redirects() {
-    return [
-      {
-        source: "/blogpost",
-        destination: "https://akhilkala.com/",
-        permanent: true,
-      },
-    ];
+    NEXT_APP_FIREBASE_API_KEY: process.env.NEXT_APP_FIREBASE_API_KEY,
+    NEXT_APP_FIREBASE_AUTH_DOMIAN: process.env.NEXT_APP_FIREBASE_AUTH_DOMIAN,
+    NEXT_APP_FIREBASE_PROJECT_ID: process.env.NEXT_APP_FIREBASE_PROJECT_ID,
   },
 };
 
