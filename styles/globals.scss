@@ -168,6 +168,11 @@ header {
     right: 0;
     width: 50rem;
     max-width: 100%;
+    z-index: -1;
+
+    @media (max-width:500px) {
+        margin-top: 3rem;
+        }
 
     img {
         width: 100%;
