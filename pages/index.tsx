@@ -78,7 +78,9 @@ const Home: NextPage = () => {
               Manipal Bikers aims at creating a biker commuinty for students. It
               all started when we decide to drive from Hyderabad to Manipal. Was
               is easy? No. Was it fun? Not at eveny turn. Was it worth it? Hell
-              yeah. We had a blast and would like to continue the adventures in
+              yeah. We interacted with a few localites and local puppies. We
+              appreciated views we would not care to look through a bus window.
+              We had a blast and would like to continue the adventures in
               Manipal.
             </p>
             <a href="#join" className="arrows">
